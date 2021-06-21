@@ -131,7 +131,7 @@ if __name__ == '__main__':
             save_model(abs_model_path, nlp_model)
 
             test = 'my account id is 564364 and acci no 12/24/2020 ddcdfvd account number \
-             and the values acct id has a bill date'
+             and the values acct id has a bill date form the used date until the account no is dead'
             # test = 'account number is for'
             test_model(test, nlp_model)
 
