@@ -115,7 +115,6 @@ if __name__ == '__main__':
     abs_model_path = os.path.join(script_dir, model_path)
     model_nlp = open_model(abs_model_path)
     # declare if you want to use already trained spacy model or not
-    
     pretrained_without_spacy = 'spacy'
     spacy_train = 'train'
     if model_nlp and not spacy_train:
